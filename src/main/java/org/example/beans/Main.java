@@ -1,3 +1,5 @@
+package org.example.beans;
+
 import com.typesafe.config.Config;
 import com.typesafe.config.ConfigFactory;
 import lombok.extern.slf4j.Slf4j;
@@ -12,7 +14,7 @@ import org.example.beans.transformation.stats;
 import org.example.beans.write.Write;
 
 @Slf4j
-public class Spark  {
+public class Main  {
 
     public static void main(String[] args){
 
